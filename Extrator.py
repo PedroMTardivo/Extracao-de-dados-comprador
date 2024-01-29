@@ -73,7 +73,7 @@ for link in lista_link:
     arquivo_mais_recente = max(todos_arquivos, key=os.path.getctime)
 
     
-    novo_diretorio = 'C:\sla teste d'
+    novo_diretorio = 'C:\Comprovantes'
 
    
     os.makedirs(novo_diretorio, exist_ok=True)
